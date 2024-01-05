@@ -1,0 +1,106 @@
+/* section{
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+div{
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+#em h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+#em h2{
+    font-size: 2em;
+    margin-left: 1em;
+}
+#em h3{
+font-size: 1.5em;
+}
+#em p{
+    font-size: 1em;
+}
+article{
+    font-size: 15px;
+}
+#em ul{
+    font-size: 1.5em;}
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: rgb(60, 117, 60);
+    color: white;
+}
+#rem h2{
+    font-size: 3rem;
+}
+#rem h3{
+    font-size: 2rem;
+}
+#rem ul{
+    font-size: 0.8rem;
+}
+#rem button{
+    font-size: 1.5rem;
+} */
+/* opacity and alpha channel practice */
+/* section{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#opacity{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;  
+    opacity: 0.3;
+} */
+/* position practice */
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #3d405b;
+    border: 2px solid black ;
+    margin: 10px;
+}
+#middle{
+    background: #81b29a;
+}
+#static #middle{
+    position: static;
+    top: 100px;
+}
+#relative #middle{
+position: relative;
+top: 50px;
+left: 50px;
+}
+#absolute{
+    position: relative;
+}
+#absolute #middle{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#fixed #middle{
+    position: fixed;
+    top: 0;
+    left: 400px;
+}
+#sticky #middle{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    left: 20pxs;
+    }
